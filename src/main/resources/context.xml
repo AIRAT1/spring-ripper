@@ -9,6 +9,7 @@
     <context:annotation-config/>
     <bean class="quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
     <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
+    <bean class="quoters.ProfilingHandlerBeanPostProcessor"/>
 
     <bean class="quoters.TerminatorQuoter" id="terminatorQuoter">
         <property name="message" value="I'll be back"/>
