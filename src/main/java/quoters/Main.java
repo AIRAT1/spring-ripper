@@ -9,5 +9,6 @@ public class Main {
 //            Thread.sleep(100);
 //            context.getBean(Quoter.class).sayQuote();
 //        }
+        context.getBean(Quoter.class).sayQuote();
     }
 }
